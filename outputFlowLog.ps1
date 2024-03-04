@@ -9,6 +9,7 @@ $servers = @(
 
 # Loop through the server list
 for ($i = 1; $i -le 100; $i++) {
+    Write-Host "loop count is $i "
     foreach ($server in $servers) {
         # Do something with each server
         Write-Host "Processing server: $server"
