@@ -8,7 +8,6 @@ $servers = @(
 )
 
 # Loop through the server list
-Write-Host "Processing server: $server"
 for ($i = 1; $i -le 100; $i++) {
     foreach ($server in $servers) {
         # Do something with each server
